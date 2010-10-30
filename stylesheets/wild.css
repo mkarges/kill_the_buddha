@@ -1,0 +1,87 @@
+body	{
+	background-color: #fff;
+	text-align: center;
+	font: 18px "Gill Sans","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	width:100%;
+	margin-left:-0px;
+}
+
+#container	{
+	position: absolute;
+	width: 100%;
+	font: 18px "Gill Sans","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+	top: 15%;
+}
+
+.click	{
+	text-align: center;
+}
+
+.box{
+	left: 50%;
+	margin-left: -150px;
+}
+
+.response	{
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
+	text-align: left;
+}
+
+button	{
+	font: bold 80px "Gill Sans","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	border: none;
+	background-color: #fff;
+}
+
+a	{
+	border: none;
+}
+
+.loading  {
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	margin-left: -200px;
+	text-align: center;
+  color: red;
+}
+
+.header	{
+	position:absolute;
+	width: 100%;	
+	top: 0px;
+	height: 27px;
+	background-color:#CCCCCC;
+}
+
+.header_bar	{
+	display: inline;
+	text-align:center;
+  vertical-align: middle;
+	}
+
+.header_bar a	{
+	text-decoration:none; 
+	color:#000;
+	padding-left: 75px;
+	padding-right: 75px;
+	}
+
+.header_bar a:hover {
+	background-color:#000;
+	color:#FFF;
+	text-decoration:none;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+
+
