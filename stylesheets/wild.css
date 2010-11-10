@@ -14,7 +14,7 @@ body	{
 }
 
 .click	{
-	text-align: center;
+	text-align: center;	
 }
 
 .box{
@@ -32,7 +32,7 @@ body	{
 
 button	{
 	font: bold 80px "Gill Sans","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;	
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 	text-align: center;
 	border: none;
@@ -83,5 +83,26 @@ a	{
 	padding-bottom:3px;
 }
 
+.what, .how, .why	{
+	position:absolute;
+	top:27px;
+	left: 50%;
+	width: 550px;
+	margin-left:-295px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #000;
+	font-size: 1.2em;
+	font-decoration:none;
+	color: #FFF;
+	text-align: left;
+}
 
+.how	a	{text-decoration: underline; color:#FFF; }
 
+.how a:visited {text-decoration:underline; color:#FFF;}
+
+.overlay	{
+	height:100%;
+	width:100%;
+}

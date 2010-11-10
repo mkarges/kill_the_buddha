@@ -3,7 +3,7 @@ class Fetch
     d = ""
     a = []
     d = Nokogiri::HTML(open("http://cutup.heroku.com/thedocument"))
-    document = d.css('div').each do |c|
+    document = d.css('div#container').each do |c|
       a << c
       a = a.to_s
     end
@@ -70,6 +70,7 @@ class Fetch
               end
           end
       
+          #not long enough to return a useful response - 21 is an arbitrary length I chose
           if arr.inspect.length <  21
             puts "less than 21"
             return nil

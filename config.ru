@@ -3,12 +3,10 @@ require 'generate'
 gen = Generate.new
 
 builder = Rack::Builder.new do
-	#middleware	
 	use Rack::ShowExceptions
-	use Rack::Reloader
 	use Rack::Static, :urls => [ "/stylesheets", "/images", "/js" ] 
+	use Rack::Reloader
 
-	#url mapping / need to amend Generate class to only process Fetch when instructed (through another class, e.g. Process)
 	map '/' do	
 		run gen
 	end
@@ -19,7 +17,6 @@ builder = Rack::Builder.new do
 
 end
 
-# rack this up
 run builder 
 
 
